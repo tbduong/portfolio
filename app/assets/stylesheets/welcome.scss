@@ -1,3 +1,79 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'normalize';
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #96ceb4;
+$border: #E9E9E9;
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+
+#main-navigation {
+   padding: 2em 5%;
+   padding-bottom: 38%;
+   border-bottom: 1px solid $border;
+   background-image: url(image-path('workspace-splash.jpg'));
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: cover;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 0.80em;
+  text-transform: uppercase;
+  border: 2px solid $border;
+  padding: 0.75em 1rem;
+  text-decoration: none;
+  color: $dark;
+  float: left;
+}
+
+.name-head {
+    margin-top: 10%;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+}
+.splash-text:hover{
+    opacity:0.5 !important;
+    color: black !important;
+}
+
+nav {
+  float: right;
+  opacity: 0.9;
+  a {
+    color: $dark;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.learn-more {
+  margin-left: 47%;
+  margin-top: 5%;
+  font-size: 900;
+}
+
+.parallax-container {
+  height: 200px !important;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg") fixed;
+  width: 100%
+}
+
+.screenshot {
+  height: 200px;
+  width: 300px;
+}
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
