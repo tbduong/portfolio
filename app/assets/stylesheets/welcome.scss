@@ -20,7 +20,7 @@ $border: #E9E9E9;
    padding: 2em 5%;
    padding-bottom: 38%;
    border-bottom: 1px solid $border;
-   background-image: url(image-path('workspace-splash.jpg'));
+   background-image: url(image-path('workspace-splash.jpg')) !important;
    background-repeat: no-repeat;
    background-position: top;
    background-size: cover;
