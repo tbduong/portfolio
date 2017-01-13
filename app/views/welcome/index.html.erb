@@ -52,7 +52,7 @@
             <p> Git | GitHub | Trello </p>
           </div>
           <div class="col s4">
-            <h5 class=""> <b> Eye for Design </b> </h5>
+            <h5 class=""> <b> Clean Design </b> </h5>
           </p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <p> Balsamiq | Photoshop | Illustrator </p>
         </div>
@@ -61,8 +61,7 @@
   </div>
   <section class="parallax-container">
     <div class="parallax">
-      <h4> My Work</h4>
-      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg"> -->
+      <h4> My Apps</h4>
     </div>
   </section>
 
@@ -76,33 +75,47 @@
         <div class="col s6">
           <b> AIDE:</b> A social platform to assist patients in search of caregiving services and resources. I collaborated with a small team of developers and led project development through a variety of planning tools, research, git workflow, and frequent team meetings. I worked on front and back end aspects of the application, released features, and overcame many obstacles to follow ARIA and Accessibility guidelines.
           <p> Ruby on Rails | PostgreSQL | Foundation CSS | HTML | CSS </p>
+          <%= link_to "Check me out!", "https://aide-initiative.herokuapp.com" %>
         </div>
       </div>
       <div class="row">
 
 
-      <div class="col s6">
-        <%= image_tag("Wanderlust.png", :alt => "rss feed", height:250, width:400) %>
-      </div>
-      <div class="col s6">
-        <b> WanderLust:</b>
-        An interactive photo blog, which allows users to share and explore different traveling experiences and activities through beautiful images, locations, and tags. Users can 'like' posts and visit the Trending page where they can explore the most liked photos.
-        <p> Ruby on Rails | PostgreSQL | Foundation CSS | HTML | CSS</p>
-
-      </div>
+        <div class="col s6">
+          <%= image_tag("Wanderlust.png", :alt => "rss feed", height:250, width:400) %>
         </div>
-        <div class="row">
+        <div class="col s6">
+          <b> WanderLust:</b>
+          An interactive photo blog, which allows users to share and explore different traveling experiences and activities through beautiful images, locations, and tags. Users can 'like' posts and visit the Trending page where they can explore the most liked photos.
+          <p> Ruby on Rails | PostgreSQL | Foundation CSS | HTML | CSS</p>
+          <%= link_to "Check me out!", "https://wanderlust-blog.herokuapp.com" %>
 
-
-      <div class="col s6">
-        <%= image_tag("CoffeeBreak.png", :alt => "rss feed", height:250, width:400) %>
-      </div>
-      <div class="col s6">
-        <b> CoffeeBreak:</b>
-        A coffee API to help find California coffee shops based on your taste, work and study flow. Users can sifle through the database to find what coffee spot fits their needs as well as add to the growing collection of awesome spots.
-        <p> JavaScript | jQuery | MongoDB | Node.js | Express.js | Twitter Bootstrap </p>
-      </div>
         </div>
+      </div>
+      <div class="row">
+
+
+        <div class="col s6">
+          <%= image_tag("CoffeeBreak.png", :alt => "rss feed", height:250, width:400) %>
+        </div>
+        <div class="col s6">
+          <b> CoffeeBreak:</b>
+          A coffee API to help find California coffee shops based on your taste, work and study flow. Users can sifle through the database to find what coffee spot fits their needs as well as add to the growing collection of awesome spots.
+          <p> JavaScript | jQuery | MongoDB | Node.js | Express.js | Twitter Bootstrap </p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col s6">
+        <%= image_tag("TravelAPI.png", :alt => "rss feed", height:250, width:400) %>
+      </div>
+      <div class="col s6">
+        <b> Traveler Log App:</b>
+        One of the first applications I played with-- A travels destination API put together to keep record of my previous trips and experiences. Building this website allowed me to practice basic CRUD, Handlebars, and getting familiar with building API's.
+        <p> JavaScript | HandleBars.js | Twitter Bootstrap | HTML | CSS</p>
+        <%= link_to "Check me out!", "https://wanderlust-blog.herokuapp.com" %>
+
+      </div>
+
     </div>
   </div>
 </main>
