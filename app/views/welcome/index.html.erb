@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title> Tiffani Duong | Full Stack Developer </title>
-  <!-- enable icon library -->
+  <!-- enables icon library -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -12,15 +12,15 @@
       <div class="nav-wrapper teal lighten-3">
         <a href="#" class="brand-logo left">T<b>D</b></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="https://imaginatiff.wordpress.com">Blog</a></li>
+          <li><a href="#contacts">Contact</a></li>
         </ul>
       </div>
       <div class="splash-text">
         <h1 class="center name-head">Tiffani Duong</h1>
         <h5 class="center description"> Developer with a passion to create Design and User Driven applications to tell your story. </h5>
-        <a href="#" class="learn-more">Learn More V </a>
+        <a href="#content" class="learn-more">Learn More V </a>
       </div>
     </nav>
   </header>
@@ -28,13 +28,18 @@
     <div class="container">
       <div class="section grey lighten-4 ">
         <div class="row">
-          <!-- <div class="container "> -->
-          <h4 class="center heading"> My Passion </h4>
+          <h4 class="center heading" id="content"> My Passion </h4>
           <p>I have always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many turns — Business Development for a non-profit to a Supply Chain Analyst for an engineering firm-- I've never stopped engaging my passion to help others and solve problems. </p>
 
           <p>As a web developer, I enjoy using my detail to attention from  my analytics background, my unequivocal love for making things, and my mission-driven work ethic to make a difference. That's why I’m excited to make a big impact at a high growth company.</p>
         </div>
       </div>
+    </div>
+      <section class="parallax-container">
+        <div class="parallax">
+        </div>
+      </section>
+      <div class="container">
       <div class="section white">
         <div class="row">
           <h4 class="center heading"> Focus </h4>
@@ -61,16 +66,14 @@
   </div>
   <section class="parallax-container">
     <div class="parallax">
-      <h4> My Apps</h4>
     </div>
   </section>
-
   <div class="section grey lighten-4 ">
     <div class="container ">
       <div class="row">
-        <h4 class="center heading"> My Work</h4>
+        <h4 class="center heading" id="work"> My Work</h4>
         <div class="col s6">
-          <%= image_tag("AIDE.png", :alt => "rss feed", height:250, width:400) %>
+          <%= image_tag("AIDE.png", :alt => "rss feed", height:200, width:350) %>
         </div>
         <div class="col s6">
           <b> AIDE:</b> A social platform to assist patients in search of caregiving services and resources. I collaborated with a small team of developers and led project development through a variety of planning tools, research, git workflow, and frequent team meetings. I worked on front and back end aspects of the application, released features, and overcame many obstacles to follow ARIA and Accessibility guidelines.
@@ -79,24 +82,20 @@
         </div>
       </div>
       <div class="row">
-
-
         <div class="col s6">
-          <%= image_tag("Wanderlust.png", :alt => "rss feed", height:250, width:400) %>
+          <%= image_tag("Wanderlust.png", :alt => "rss feed", height:200, width:350) %>
         </div>
         <div class="col s6">
           <b> WanderLust:</b>
           An interactive photo blog, which allows users to share and explore different traveling experiences and activities through beautiful images, locations, and tags. Users can 'like' posts and visit the Trending page where they can explore the most liked photos.
           <p> Ruby on Rails | PostgreSQL | Foundation CSS | HTML | CSS</p>
-          <%= link_to "Check me out!", "https://wanderlust-blog.herokuapp.com" %>
-
+          <%= link_to "Check me out!", "https://wanderlust-blog.herokuapp.com" %> |
+          <%= link_to "Github", "https://github.com/tbduong/wanderlust" %>
         </div>
       </div>
       <div class="row">
-
-
         <div class="col s6">
-          <%= image_tag("CoffeeBreak.png", :alt => "rss feed", height:250, width:400) %>
+          <%= image_tag("CoffeeBreak.png", :alt => "rss feed", height:200, width:350) %>
         </div>
         <div class="col s6">
           <b> CoffeeBreak:</b>
@@ -106,39 +105,28 @@
       </div>
       <div class="row">
       <div class="col s6">
-        <%= image_tag("TravelAPI.png", :alt => "rss feed", height:250, width:400) %>
+        <%= image_tag("TravelAPI.png", :alt => "rss feed", height:200, width:350) %>
       </div>
       <div class="col s6">
-        <b> Traveler Log App:</b>
+        <b> Travelers Log App:</b>
         One of the first applications I played with-- A travels destination API put together to keep record of my previous trips and experiences. Building this website allowed me to practice basic CRUD, Handlebars, and getting familiar with building API's.
         <p> JavaScript | HandleBars.js | Twitter Bootstrap | HTML | CSS</p>
-        <%= link_to "Check me out!", "https://wanderlust-blog.herokuapp.com" %>
-
+        <%= link_to "Check me out!", "https://enigmatic-atoll-65639.herokuapp.com/" %>
       </div>
-
     </div>
   </div>
 </main>
-<footer class="page-footer teal lighten-3">
+<footer class="page-footer teal lighten-3" id="contacts">
   <div class="container">
     <div class="row">
       <div class="col l3 s12">
         <h5 class="white-text">More About Me:</h5>
         <p class="grey-text text-lighten-4"> To learn more about me, my work, my travels and adventures, please check out some of the links over on the right!</p>
       </div>
-      <div class="col l3 offset-l2 s12">
-        <h5 class="white-text">Posts</h5>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Post 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Post 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Post 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Post 4</a></li>
-        </ul>
-      </div>
       <div class="col l3 s12">
-        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons"></i>LinkedIn</a>
-        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons"></i>GitHub</a>
-        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons"></i>Instagram</a>
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">Li</i>LinkedIn</a>
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">Git</i>GitHub</a>
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">IG</i>Instagram</a>
       </div>
     </div>
   </div>
