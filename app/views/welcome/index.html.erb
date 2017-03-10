@@ -10,26 +10,29 @@
   <header id="main-navigation" class="clearfix" id="main-navigation">
     <div class="splash-text">
       <h1 class="center name-head">Tiffani Duong</h1>
-      <h5 class="center description"> Developer with a passion to create Design and User Driven applications to tell your story. </h5>
-      <a href="#" class="learn-more">Learn More V </a>
-    </div>
+      <h5 class=" description"> Developer with a passion to create Design and User Driven applications to tell your story.</h5>
+      </div>
+        <br>
+        <br>
+        <div class="row center">
+          <button type="button" class="btn btn-primary"> Learn More!</button>
+        </div>
+
   </header>
   <main>
     <div class="section grey lighten-4">
-    <div class="container">
+      <div class="container">
         <div class="row">
           <h4 class="center heading" id="content"> My Passion </h4>
           <p>I have always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many turns — Business Development for a non-profit to a Supply Chain Analyst for an engineering firm-- I've never stopped engaging my passion to help others and solve problems. </p>
-
           <p>As a web developer, I enjoy using my detail to attention from  my analytics background, my unequivocal love for making things, and my mission-driven work ethic to make a difference. That's why I’m excited to make a big impact at a high growth company.</p>
         </div>
       </div>
     </div>
-      <section class="parallax-container">
-        <div class="parallax">
-        </div>
-      </section>
-      <div class="container">
+    <section class="parallax-container">
+      <div class="parallax"></div>
+    </section>
+    <div class="container">
       <div class="section white">
         <div class="row">
           <h4 class="center heading"> Focus </h4>
@@ -94,17 +97,28 @@
         </div>
       </div>
       <div class="row">
-      <div class="col s6">
-        <%= image_tag("TravelAPI.png", :alt => "rss feed", height:200, width:350) %>
-      </div>
-      <div class="col s6">
-        <b> Travelers Log App:</b>
-        One of the first applications I played with-- A travels destination API put together to keep record of my previous trips and experiences. Building this website allowed me to practice basic CRUD, Handlebars, and getting familiar with building API's.
-        <p> JavaScript | HandleBars.js | Twitter Bootstrap | HTML | CSS</p>
-        <%= link_to "Check me out!", "https://enigmatic-atoll-65639.herokuapp.com/" %>
+        <div class="col s6">
+          <%= image_tag("TravelAPI.png", :alt => "rss feed", height:200, width:350) %>
+        </div>
+        <div class="col s6">
+          <b> Travelers Log App:</b>
+          One of the first applications I played with-- A travels destination API put together to keep record of my previous trips and experiences. Building this website allowed me to practice basic CRUD, Handlebars, and getting familiar with building API's.
+          <p> JavaScript | HandleBars.js | Twitter Bootstrap | HTML | CSS</p>
+          <%= link_to "Check me out!", "https://enigmatic-atoll-65639.herokuapp.com/" %>
+        </div>
       </div>
     </div>
-  </div>
-</main>
+    <div class="section white">
+      <div class="row">
+        <h4 class="center heading"> Get In Touch</h4>
+        <h6 class="center heading"> Want to work together or just say hi? </h6>
+        <div class="row">
+          <div class="center">
+              <a href="mailto:tiffaniduong@email.com" target="_blank" class="btn btn-primary center">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
