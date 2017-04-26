@@ -41,7 +41,7 @@ $border: #E9E9E9;
     font-weight: bolder;
     letter-spacing: 0.2em;
 }
-.splash-text, .work-img:hover{
+.splash-text:hover, .work-img:hover, .bottom-links:hover{
     opacity:0.5 !important;
     color: black !important;
 }
@@ -74,9 +74,9 @@ nav {
   width: 300px;
 }
 
-.icons{
-  height: 10px;
-  width: 10px;
+.icons:hover{
+  opacity:0.5 !important;
+  color: white !important;
 }
 
 #contact-button {
