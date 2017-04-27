@@ -4,7 +4,7 @@
 @import 'normalize';
 $dark: #424652;
 $light: #9a9da4;
-$highlight: #96ceb4;
+$highlight: #8cd4c1;
 $border: #E9E9E9;
 
 .clearfix:before,
@@ -89,11 +89,23 @@ nav {
 
 h4 {
     font-family: roboto;
+    background-color: $highlight;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: $dark;
 }
 
 .location{
   letter-spacing: 0.2em;
 }
+
+.work-description{
+    font-size: 14px;
+}
+
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
