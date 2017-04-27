@@ -10,7 +10,8 @@
   <header id="main-navigation" class="clearfix" id="main-navigation">
     <div class="splash-text">
       <h1 class="center name-head">Tiffani Duong</h1>
-      <h5 class="center description"> Developer with a passion to create Design and User Driven applications to tell your story.</h5>
+      <h5 class="center description"> Full Stack Developer with a passion to create and design clean User Driven applications to tell your story.</h5>
+      <h6 class="center location">San Francisco Bay Area</h6>
     </div>
     <div class="row center">
       <button type="button" id="learn-btn" class="btn btn-primary"> Learn More <i class="material-icons right">play_for_work</i></button>
@@ -20,11 +21,15 @@
     <div class="section grey lighten-4">
       <div class="container">
         <div class="row">
-          <div class="col 10 offset-s1">
-          <h4 class="center heading" id="content"> About Me </h4>
-          <p>I have always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many turns — Business Development for a non-profit to a Supply Chain Analyst for an engineering firm-- I've never stopped engaging my passion to help others and solve problems. </p>
-          <p>As a web developer, I enjoy using my detail to attention from  my analytics background, my unequivocal love for making things, and my mission-driven work ethic to make a difference. That's why I’m excited to make a big impact at a high growth company.</p>
-        </div>
+          <div class="col 10">
+            <h4 class="center heading" id="content"> ABOUT ME </h4>
+            <h5>I am a web developer living in the San Francisco Bay Area experienced using JavaScript and Ruby languages to plan, create, and implement functional and clean full stack applications.</h5>
+
+            <p>I have always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many turns, I have never stopped engaging my passion to help others, to learn more, and to solve problems. The skills and accomplishments I have earned in my prior experiences have allowed me to become a stronger and well rounded developer. I am excited to make a big impact at a dynamic company with a team that shares the same passion and vision for positive change, collaboration, and growth.
+            </p>
+
+            <p>Aside from sitting in front of the computer all day, I enjoy discovering delicious foods, traveling to different places, and learning about other cultures. A great day would consist of happy hour and a nice brew with my close family and friends.... I will probably be the small girl in the back of the bar yelling at the TV during a Golden State Warriors game. </p>
+          </div>
         </div>
       </div>
     </div>
@@ -34,24 +39,21 @@
     <div class="container">
       <div class="section white">
         <div class="row">
-          <h4 class="center heading"> Focus </h4>
+          <h4 class="center heading"> MY FOCUS </h4>
           <h5 class="center"> </h5>
           <div class="col s4">
-            <h5 class=""> <b> Versatility </b> </h5>
-          </p> Enjoyment in  dabbling in an assortmant of tools, languages, and frameworks.
-          <p> JavaScript | Ruby on Rails | Wordpress</p>
+            <h5 class="center"> <b> Versatile Developer </b> </h5>
+          </p> I enjoy developing in all aspects of web: From front end engineering (HTML, CSS, jQuery, and JavaScript) to back end  (Ruby on Rails, Node.js, SQL). In addition, I have a strong background in data analysis and visual design chops from previous branding and marketing experiences.
           <p>
           </div>
           <div class="col s4">
-            <h5 class=""> <b> Planning & Workflow  </b> </h5>
-          </p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          <p>
-            <p> Git | GitHub | Trello </p>
-          </div>
-          <div class="col s4">
-            <h5 class=""> <b> Clean Design </b> </h5>
-          </p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          <p> Balsamiq | Photoshop | Illustrator </p>
+            <h5 class="center"> <b> Collaboration & Planning </b> </h5>
+            <p> Collaboration and communication are key to understanding a client's personal preferences for their project. I create wireframes layouts by hand or on Adobe Photoshop - focusing on the client's user story and vision. </p>
+        </div>
+        <div class="col s4">
+          <h5 class="center"> <b> Clean & Responsive Design </b> </h5>
+        </p> I believe in responsive and clean design layouts that provide simple and intuitive interface and navigation. I am a minimalist who believes that less is more. I also have experience in dabbling in different CSS frameworks (Bootstrap, Foundation, Materialize).
+        <p>
         </div>
       </div>
     </div>
@@ -63,56 +65,74 @@
   <div class="section grey lighten-4 ">
     <div class="container" id="work">
       <div class="row">
-        <h4 class="center heading" id="work"> My Work</h4>
-        <div class="col s6">
-          <%= image_tag("AIDE.png", :alt => "rss feed", height:170, width:300) %>
+        <h4 class="center heading" id="work"> MY WORK </h4>
+        <div class="col s6 work-img">
+          <%= image_tag("aide1.png", :alt => "rss feed", height:170, width:300) %>
         </div>
-        <div class="col s6">
-          <b> AIDE:</b> A social platform to assist patients in search of caregiving services and resources. I collaborated with a small team of developers and led project development through a variety of planning tools, research, git workflow, and frequent team meetings. I worked on front and back end aspects of the application, released features, and overcame many obstacles to follow ARIA and Accessibility guidelines.
+        <div class="col s6 work-description">
+          <b> AIDE:</b> A social platform that allows patients/family members in search of caregiving services to filter through a directory to find and connect them to their preferred caregiver prospect. I collaborated with a small team of developers and led project development through a variety of planning tools and intense health care research. I worked on front and back end aspects of the application, released features, and overcame many obstacles to follow ARIA and Accessibility guidelines.
           <p> Ruby on Rails | PostgreSQL | Foundation CSS | HTML | CSS </p>
-          <%= link_to "Check me out!", "https://aide-initiative.herokuapp.com" %>
+          <%= link_to "Check me out!", "https://aide-initiative.herokuapp.com" %> |
+          <%= link_to "Github", "https://github.com/tbduong/AIDE" %>
         </div>
       </div>
       <div class="row">
-        <div class="col s6">
-          <%= image_tag("Wanderlust.png", :alt => "rss feed", height:200, width:350) %>
+        <div class="col s6 work-img">
+          <%= image_tag("Wanderlust.png", :alt => "rss feed", height:170, width:300) %>
         </div>
-        <div class="col s6">
+        <div class="col s6 work-description">
           <b> WanderLust:</b>
-          An interactive photo blog, which allows users to share and explore different traveling experiences and activities through beautiful images, locations, and tags. Users can 'like' posts and visit the Trending page where they can explore the most liked photos.
+          An interactive photo blog and personal project, which allows users to share and explore different traveling experiences and activities through beautiful images, locations, and tags. Users can 'like' posts and visit the Trending page where they can explore the most liked photos. This was a fun project where I challenged myself to create a personal "instagram" app.
           <p> Ruby on Rails | PostgreSQL | Foundation CSS | HTML | CSS</p>
           <%= link_to "Check me out!", "https://wanderlust-blog.herokuapp.com" %> |
           <%= link_to "Github", "https://github.com/tbduong/wanderlust" %>
         </div>
       </div>
       <div class="row">
-        <div class="col s6">
-          <%= image_tag("CoffeeBreak.png", :alt => "rss feed", height:200, width:350) %>
+        <div class="col s6 work-img">
+          <%= image_tag("vagabond.png", :alt => "rss feed", height:170, width:300) %>
         </div>
-        <div class="col s6">
+        <div class="col s6 work-description">
+          <b> Vagabond: </b>
+          I collaborated with a small team to develop a MEAN stack and Handlebars based travel application that allows users to read and create entries regarding a specific city to share their travel tips and favorite locations. Future planned features: users can comment, users can follow other users
+          <p> Ruby on Rails | PostgreSQL | HTML | CSS </p>
+          <%= link_to "Check me out!", "https://enigmatic-atoll-65639.herokuapp.com/" %> |
+          <%= link_to "Github", "https://github.com/tbduong/express-personal-api" %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 work-img">
+          <%= image_tag("CoffeeBreak.png", :alt => "rss feed", height:170, width:300) %>
+        </div>
+        <div class="col s6 work-description">
           <b> CoffeeBreak:</b>
           A coffee API to help find California coffee shops based on your taste, work and study flow. Users can sifle through the database to find what coffee spot fits their needs as well as add to the growing collection of awesome spots.
           <p> JavaScript | jQuery | MongoDB | Node.js | Express.js | Twitter Bootstrap </p>
         </div>
       </div>
+
       <div class="row">
-        <div class="col s6">
-          <%= image_tag("TravelAPI.png", :alt => "rss feed", height:200, width:350) %>
+        <div class="col s6 work-img">
+          <%= image_tag("TravelAPI.png", :alt => "rss feed", height:170, width:300) %>
         </div>
-        <div class="col s6">
+        <div class="col s6 work-description">
           <b> Travelers Log App:</b>
-          One of the first applications I played with-- A travels destination API put together to keep record of my previous trips and experiences. Building this website allowed me to practice basic CRUD, Handlebars, and getting familiar with building API's.
+          One of the first applications I played for a school project- A personal travel destination API put together to keep record of my previous trips and experiences. Building this website allowed me to practice basic CRUD, Handlebars, and getting familiar with building API's.
           <p> JavaScript | HandleBars.js | Twitter Bootstrap | HTML | CSS</p>
-          <%= link_to "Check me out!", "https://enigmatic-atoll-65639.herokuapp.com/" %>
+          <%= link_to "Check me out!", "https://enigmatic-atoll-65639.herokuapp.com/" %> |
+          <%= link_to "Github", "https://github.com/tbduong/express-personal-api" %>
         </div>
       </div>
     </div>
     <div class="section white">
+      <div class="container">
       <div class="row">
-        <h4 class="center heading"> Get In Touch</h4>
-        <h6 class="center heading"> Want to work together or just say hi? </h6>
+        <h4 class="center heading" id="contact"> GET IN TOUCH </h4>
+        <h6 class="center heading"> Interested in working together or just want to say hi? </h6>
+          </div>
         <div class="row">
           <div class="center">
+            <br>
             <a href="mailto:tiffaniduong@email.com" target="_blank" class="btn btn-primary center">Contact Me</a>
           </div>
         </div>

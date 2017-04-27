@@ -12,8 +12,10 @@
       <a href="#" class="brand-logo left">T<b>D</b></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#work">Work</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><a href="#">Blog (coming soon!)</a></li>
+        <li><a href="#content">Resume</a></li>
+        <li><a href="#content">About Me</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </div>
   </nav>
@@ -21,20 +23,28 @@
     <footer class="page-footer teal lighten-3" id="contacts">
       <div class="container">
         <div class="row">
-          <div class="col l3 s12">
-            <h5 class="white-text">More About Me:</h5>
-            <p class="grey-text text-lighten-4"> To learn more about me, my work, my travels and adventures, please check out some of the links over on the right!</p>
+          <div class="col l4 s12 center">
+            <h5 class="white-text">Tiffani Duong:</h5>
+            <p class="grey-text text-lighten-4"> To learn more about myself, my work, my travels and adventures, please visit some of my other pages.</p>
+            <p><%= link_to "Work", :anchor => "work"%></p>
+            <p><%= link_to "Resume", :anchor => "content"%></p>
+            <p><%= link_to "About Me", :anchor => "content"%></p>
           </div>
-          <div class="col l3 s12">
-            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">Li</i>LinkedIn</a>
-            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">Git</i>GitHub</a>
-            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">IG</i>Instagram</a>
+          <div class="col l4 s12 center">
+            <h5 class="white-text">Latest Blog Post</h5>
+            <p class="grey-text text-lighten-4"> (Blog coming soon!)</p>
+          </div>
+          <div class="col l4 s12 center">
+            <%=link_to image_tag("https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-128.png"), "https://www.linkedin.com/in/tiffani-duong", title:"Linkedin", class:"icons"%>
+            <%=link_to image_tag("https://cdn.iconscout.com/public/images/icon/free/png-128/social-media-logo-github-3ce77c69c048e441-128x128.png"), "https://www.github.com/tbduong", title:"Github", class:"icons"%>
+            <%=link_to image_tag("http://www.maxokhrimenko.com/images/icon_vimeo.png"), "https://vimeo.com/tbduong", title:"Check out my travel vids on Vimeo!", class:"icons"%>
+            <%= link_to image_tag("http://www.iconninja.com/files/591/38/523/wordpress-circular-logo-icon.png"), title:"Blog COMING SOON!", class:"icons" %>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-          © 2016 Tiffani<b>Duong</b>
+          © 2017 Tiffani<b>Duong</b>
         </div>
       </div>
     </footer>
