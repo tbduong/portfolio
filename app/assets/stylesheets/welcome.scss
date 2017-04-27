@@ -18,7 +18,7 @@ $border: #E9E9E9;
 
 #main-navigation {
    padding: 1em 5%;
-   padding-bottom: 9%;
+   padding-bottom: 10%;
    border-bottom: 1px solid $border;
    background-image: url(image-path('workspace-splash.jpg')) !important;
    background-repeat: no-repeat;
@@ -46,6 +46,12 @@ $border: #E9E9E9;
     margin-top: 10%;
     font-weight: bolder;
     letter-spacing: 0.2em;
+}
+
+.work-img {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 .splash-text:hover, .work-img:hover{
@@ -79,6 +85,12 @@ nav {
 .screenshot {
   height: 200px;
   width: 300px;
+}
+
+.icons{
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 .icons:hover{
