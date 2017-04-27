@@ -18,12 +18,18 @@ $border: #E9E9E9;
 
 #main-navigation {
    padding: 1em 5%;
-   padding-bottom: 5%;
+   padding-bottom: 9%;
    border-bottom: 1px solid $border;
    background-image: url(image-path('workspace-splash.jpg')) !important;
    background-repeat: no-repeat;
    background-position: 80%;
    background-size: cover;
+}
+
+.splash-text{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 .name {
@@ -41,7 +47,8 @@ $border: #E9E9E9;
     font-weight: bolder;
     letter-spacing: 0.2em;
 }
-.splash-text:hover, .work-img:hover, .bottom-links:hover{
+
+.splash-text:hover, .work-img:hover{
     opacity:0.5 !important;
     color: black !important;
 }
@@ -90,8 +97,8 @@ nav {
 h4 {
     font-family: roboto;
     background-color: $highlight;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
     color: white;
     border: 1px;
     border-style: solid;

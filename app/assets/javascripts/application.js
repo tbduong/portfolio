@@ -2,4 +2,4 @@
 //= link_directory ../javascripts .js
 //= link_directory ../stylesheets .css
 //= require jquery
-//= require materialize-sprockets 
+//= require materialize-sprockets
